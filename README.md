@@ -2,11 +2,13 @@
 A guava based splitter for cli leveraging Nashorn jjs utility. Not very useful in its current form, but a reference for writing Nashorn scripts that tap into java library functions.
 
 ###Usage
-<pre>
+arg[0] - delim (i.e. " ", "\t", or "\n")
+arg[1] - string to split with splitter
+```
 ./splitter -- " " "a b c d e f g"
-</pre>
+```
 ####Output
-<pre>
+```
 --start--
 a
 b
@@ -16,5 +18,5 @@ e
 f
 g
 --end--
-</pre>
+```
 
