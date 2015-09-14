@@ -1,0 +1,3 @@
+#!/bin/sh
+args=( "$1" "$2" )
+./splitter.js -- "${args[@]}"
