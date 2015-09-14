@@ -11,12 +11,11 @@ A guava based splitter for cli leveraging Nashorn jjs utility. Not very useful i
 ####Input
 
 ```
-./splitter -- " " "a b c d e f g"
+./splitter ' ' 'a b c d e f g'
 ```
 
 ####Output
 ```
---start--
 a
 b
 c
@@ -24,6 +23,5 @@ d
 e
 f
 g
---end--
 ```
 
