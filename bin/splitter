@@ -1,4 +1,4 @@
 #!/bin/sh
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 args=( "$1" "$2" "$DIR" )
-$DIR/splitter.js -- "${args[@]}"
+$DIR/../splitter.js -- "${args[@]}"
